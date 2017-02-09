@@ -1,0 +1,354 @@
+body {
+	background-color: white;
+	background-image: url('C:\Users\rcanu_000\Documents\Scans\Universe BW 3.png');
+	overflow-x:hidden;
+}
+
+img	{
+	
+}
+
+div {
+	
+}
+
+h1 {
+	
+	text-align: center;
+    text-decoration: none;
+	font-family: corbel;
+	font-weight: bold;
+	margin-top: 50px;
+	font-size: 70px;
+	text-shadow: 20px 20px 0 rgba(0,0,0,0.2);
+}
+
+p {
+	
+    text-decoration: none;
+    
+	font-family: corbel;
+
+    font-size: 30px;
+	margin: auto;
+}
+
+#navbar{
+   position:fixed;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 110px;
+   
+   background-color: rgba(255, 255, 255, 0.5);
+   box-shadow:0px 2px 25px rgba(0, 0, 0, 0.2);
+   z-index: 5;
+   
+   /* 0px 10px 0px rgba(0, 0, 0, 0.1), */
+}
+
+#navdiv {
+	
+	width: 100%;
+	height: 110px;
+	
+}
+
+#box {
+
+	width: 40vw;
+	height: 70vh;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-left: 50px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+#box:hover {
+	background-color: rgba(255,255,255,0.8);
+	transition-duration: 0.5s;
+	box-shadow: box-shadow: 0px 5px 50px lightgrey;;
+}
+
+#artbox {	
+	width: 75%;
+	height: auto;
+	background: white;
+	box-shadow: 0px 5px 35px lightgrey;
+	margin: auto;
+	display: block;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#artbox:hover {
+
+	transition-duration: 0.5s;
+	box-shadow: none;
+}
+
+#shape{
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   height: 110px;
+   background-color: white;
+   box-shadow: 0px 5px 35px lightgrey, 0px 0px 10px lightgrey inset;
+}
+
+
+
+
+.button {
+	height: 72px;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: none;
+    color: black;
+	outline: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-family: corbel;
+	font-weight: bold;
+    font-size: 35px;
+    margin: 4px 50px;
+    cursor: pointer;
+	
+	line-height: 99px;
+
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+	opacity: 0.1;
+}
+
+.button:active {
+	opacity: 0.3;
+	transition-duration: 0.1s;
+}
+
+.ryan {
+
+	margin-top: 13px;
+	margin-left: 10px;
+	height: 87px;
+	line-height: 105px;
+}
+
+.ryan:hover {
+
+	/*
+    box-shadow: 0px -3px 0px 0px #9900cc inset, 0px -6px 0px 0px #3333cc inset, 0px -10px 0px 0px #00cc33 inset, 0px -13px 0px 0px #ffff33 inset, 0px -17px 0px 0px #ff0033 inset;
+	*/
+}
+
+.dev {
+	float:right;
+	margin-top: 13px;
+}
+/*
+.dev:hover {
+    opacity: 0.2;
+	box-shadow: 100px 100px 20px 0px rgba(0, 204, 51, 0.5) inset;
+	/*#00cc33
+}
+*/
+
+.design {
+	margin-top: 13px;
+    float:right;
+	
+}
+/*
+.design:hover {
+    box-shadow: 0px -10px 0px 0px #9900cc inset;
+}
+*/
+.create {
+	margin-top: 13px;
+    float:right;
+}
+/*
+.create:hover {
+    box-shadow: 0px -10px 0px 0px #ff0033 inset;
+}
+*/
+.cont {
+	position: fixed;
+	bottom:0;
+	left:0;
+}
+/*
+.cont:hover {
+    background-color: rgba(255,255,255,0.5);
+	box-shadow: 0px 5px 35px lightgrey;
+}
+*/
+.sigB {
+	;
+}
+/*
+.sigB:hover {
+	opacity: 0.3;	
+}
+*/
+.sig1 {
+	position: fixed;
+	bottom:0;
+	right:0;
+	margin:10px 10px;
+}
+
+.sig1:hover {
+	position: fixed;
+	bottom:0;
+	right:0;
+	margin:10px 10px;
+	opacity:0.5;
+}
+
+.sig2 {
+	position: fixed;
+	bottom:0;
+	right:0;
+	margin:6px 3px;
+	opacity: 0.15;
+}
+
+
+
+.art {
+	width: 100%;
+	margin: auto:
+}
+
+
+.bigText {
+	
+	top:0px;
+    left:0;
+	
+	padding-left: -10%;
+	
+	font-size: 60vw;
+	font-weight:1000px;
+	font-family: corbel;
+	letter-spacing: -10vw;
+	color: rgba(0, 0, 0, 0.05);
+	z-index: -4;
+	text-shadow: 20px 20px 0 rgba(0,0,0,0.02);
+	cursor: pointer;
+	
+	line-height:120vh;
+	
+	width: 110%;
+    height: 115vh;
+	
+	transition-duration: 0.4s;
+	
+	float: bottom;
+
+	
+	box-shadow: 0px 5px 35px rgba(0,0,0,0.1);
+	
+	
+
+}
+
+.bigText:hover {
+
+}
+
+.red:hover{
+	color: rgba(255, 0, 51, 0.05);
+	text-shadow: 20px 20px 0 rgba(255, 0, 51,0.02);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.orange:hover{
+	color: rgba(255, 153, 0, 0.05);
+	text-shadow: 20px 20px 0 rgba(255, 153, 0, 0.02);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.yellow:hover{
+	color: rgba(255, 255, 51, 0.05);
+	text-shadow: 20px 20px 0 rgba(255, 255, 51, 0.02);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.green:hover{
+	color: rgba(0, 204, 51, 0.05);
+	text-shadow: 20px 20px 0 rgba(0, 204, 51, 0.02);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.blue:hover{
+	color: rgba(51, 51, 204, 0.05);
+	text-shadow: 20px 20px 0 rgba(51, 51, 204, 0.02);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.purple:hover{
+	color: rgba(153, 0, 204, 0.05);
+	text-shadow: 20px 20px 0 rgba(153, 0, 204, 0.02);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+/*
+.bigLetter {
+	
+	display: inline-block;
+	float: left;
+	top:0%;
+    left:-5%;
+	font-size: 60vw;
+	font-weight:1000px;
+	font-family: corbel;
+	letter-spacing: -50px;
+	color: rgba(0, 102, 255, 0.05);
+	z-index: -5;
+	text-shadow: 20px 20px 0 rgba(255,255,102,0.08);
+	
+	width: 100%;
+    height: 100%;
+
+}
+*/
+
+.parallax {
+    /* The image used */
+	
+	
+	background: url('../img/UniverseBackground.png');
+	
+	width: 100vw;
+	
+	z-index: 0;
+	
+	position: relative;
+
+
+    /* Set a specific height */
+    min-height: 1000vh; 
+	
+	
+	
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
